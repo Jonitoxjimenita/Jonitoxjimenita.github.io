@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Osito Adorable</title>
+  <div class="titulo">
+<div class="lobster-regular">
+    <h1>Para mi tikita helmosha :3
+      <p>
+        (apretame💙🥺 )
+      </p>
+    </h1>
+</div>
+  </div>
+  <style>
+   
+    body {
+
+      margin: 0;
+      background: linear-gradient(to bottom, #ccefff, #ffffff);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .bear {
+      position: relative;
+      width: 220px;
+      height: 300px;
+    }
+
+    .ear {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background: #a97c50;
+      border-radius: 50%;
+      top: 0;
+    }
+
+    .ear.left {
+      left: 0;
+    }
+
+    .ear.right {
+      right: 0;
+    }
+
+    .head {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 180px;
+      height: 180px;
+      background: #a97c50;
+      border-radius: 50%;
+      z-index: 2;
+    }
+
+    .eye {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      background: #000;
+      border-radius: 50%;
+      top: 90px;
+    }
+
+    .eye.left {
+      left: 55px;
+    }
+
+    .eye.right {
+      right: 55px;
+    }
+
+    .snout {
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 40px;
+      background: #d8b192;
+      border-radius: 30px;
+    }
+
+    .nose {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 10px;
+      background: #333;
+      border-radius: 50%;
+    }
+
+    .body {
+      position: absolute;
+      top: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 200px;
+      background: #a97c50;
+      border-radius: 50% / 40%;
+      z-index: 1;
+    }
+
+    .arm {
+      position: absolute;
+      width: 50px;
+      height: 100px;
+      background: #a97c50;
+      border-radius: 40px;
+      top: 170px;
+      z-index: 2;
+    }
+
+    .arm.left {
+      left: -20px;
+      transform: rotate(20deg);
+    }
+
+    .arm.right {
+      right: -20px;
+      transform: rotate(-20deg);
+    }
+
+    .heart {
+      position: absolute;
+      top: 220px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 50px;
+      animation: pulse 1.5s infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 48px;
+      background: #00bfff;
+      border-radius: 50% 50% 0 0;
+    }
+
+    .heart::before {
+      left: 30px;
+      transform: rotate(-45deg);
+      transform-origin: bottom left;
+    }
+
+    .heart::after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: bottom right;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: translateX(-50%) scale(1); }
+      50% { transform: translateX(-50%) scale(1.1); }
+    }
+
+    .message {
+      margin-top: 40px;
+      max-width: 600px;
+      text-align: center;
+      font-size: 1.2rem;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  </style>
+</head>
+<body>
+   <a href="index.html">
+  <div class="bear">
+    <div class="ear left"></div>
+    <div class="ear right"></div>
+    <div class="head">
+      <div class="eye left"></div>
+      <div class="eye right"></div>
+      <div class="snout">
+        <div class="nose"></div>
+      </div>
+    </div>
+    <div class="body"></div>
+    <div class="arm left"></div>
+    <div class="arm right"></div>
+    <div class="heart"></div>
+
+
+    
+
+  </div>
+  </a>
